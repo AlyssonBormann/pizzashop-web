@@ -10,7 +10,7 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu'
 
-export default function AccountMenu() {
+export function AccountMenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
