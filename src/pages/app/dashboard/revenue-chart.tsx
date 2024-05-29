@@ -54,7 +54,7 @@ export function RevenueChart() {
                 })
               }
             />
-            <Tooltip />
+
             <CartesianGrid vertical={false} className="stroke-muted" />
             <Line
               name="Receita"
@@ -63,6 +63,7 @@ export function RevenueChart() {
               dataKey="revenue"
               stroke={colors.violet['500']}
             />
+            <Tooltip wrapperClassName="!bg-accent border-0" />
           </LineChart>
         </ResponsiveContainer>
       </CardContent>
