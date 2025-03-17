@@ -1,3 +1,4 @@
+Extensions installed on WSL: Ubuntu:
 anseki.vscode-color
 bierner.markdown-emoji
 bradlc.vscode-tailwindcss
