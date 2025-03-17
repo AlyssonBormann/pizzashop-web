@@ -25,7 +25,7 @@ export function MonthRevenueCard() {
               {formatCurrency(monthRevenue.receipt)}
             </span>
             <p className="text-xs text-muted-foreground">
-              {monthRevenue.diffFromLastMonth > 0 ? (
+              {monthRevenue.diffFromLastMonth >= 0 ? (
                 <>
                   <span className="text-emerald-500 dark:text-emerald-400">
                     +{monthRevenue.diffFromLastMonth}%{' '}
