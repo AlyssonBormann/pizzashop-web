@@ -24,7 +24,7 @@ export function MonthOrdersAmountCard() {
               {monthOrdersAmount.amount}
             </span>
             <p className="text-xs text-muted-foreground">
-              {monthOrdersAmount.diffFromLastMonth > 0 ? (
+              {monthOrdersAmount.diffFromLastMonth >= 0 ? (
                 <>
                   <span className="text-emerald-500 dark:text-emerald-400">
                     +{monthOrdersAmount.diffFromLastMonth}%{' '}
