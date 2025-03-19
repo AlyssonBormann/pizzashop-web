@@ -10,6 +10,7 @@ export function MonthRevenueCard() {
     queryFn: getMonthRevenue,
     queryKey: ['metrics', ['month-revenue']],
   })
+  
   return (
     <Card>
       <CardHeader className="flex-row items-center justify-between space-y-0 pb-2">
