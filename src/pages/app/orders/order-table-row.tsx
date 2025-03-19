@@ -32,7 +32,7 @@ export function OrderTableRow({ order }: OrderTableRowProps) {
 
   function updateOrderStatusOnCache(orderId: string, status: OrderStatus) {
     const ordersListCache = queryClient.getQueriesData<GetOrdersResponse>({
-      queryKey: ['orders'],
+      queryKey: ['orders'], 
     })
 
     ordersListCache.forEach(([cacheKey, cacheData]) => {
