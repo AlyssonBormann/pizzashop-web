@@ -24,7 +24,7 @@ export function OrderStatus({ status }: { status: OrderStatus | undefined }) {
   return (
     <>
       {status && (
-        <div className="flex items-center gap-2 whitespace-nowrap pr-12">
+        <div className="flex items-center gap-2">
           <span
             className={cn('h-2 w-2 rounded-full', orderStatusMap[status].color)}
           />
