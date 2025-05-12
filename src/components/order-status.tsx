@@ -27,8 +27,9 @@ export function OrderStatus({ status }: { status: OrderStatus | undefined }) {
         <div className="flex items-center gap-2">
           <span
             className={cn('h-2 w-2 rounded-full', orderStatusMap[status].color)}
+            data-testid="badge"
           />
-          <span className="font-medium text-muted-foreground">
+          <span className="font-medium text-muted-foreground" data-testid="baged">
             {orderStatusMap[status].value}
           </span>
         </div>

@@ -17,7 +17,7 @@ export function Error() {
         Voltar para o{' '}
         <Link to="/" className="text-sky-600 dark:text-sky-400">
           Dashboard
-        </Link>
+        </Link>d
       </p>
     </div>
   )
